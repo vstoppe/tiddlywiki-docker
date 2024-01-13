@@ -1,20 +1,16 @@
-# TiddliWiki 5 Docker image
+# About vstoppe/tiddlywiki image
 
-Run TiddlyWiki 5 via Docker.
+This is a fork of  [m0wer/tiddlywiki](https://hub.docker.com/r/m0wer/tiddlywiki) tiddlywiki image. I startet it for for my needs. I am a regular Tiddlywiki user and interested in using an up to date image. Feel free to use.
 
-Forked from
-[m0wer/tiddlywiki-docker](https://github.com/m0wer/tiddlywiki-docker).
+# Run TiddlyWiki 5 via Docker.
 
-The Docker image is available at [m0wer/tiddlywiki - Docker
-Hub](https://hub.docker.com/r/m0wer/tiddlywiki).
+The Docker image is available at [vstoppe/tiddlywiki](https://hub.docker.com/r/vstoppe/tiddlywiki) - Docker Hub.
 
 ## Available Docker Images at DockerHub
 
-Image Name       | Tag        | TiddyWiki Version
------------------|------------|------------------
-m0wer/tiddlywiki | latest     | 5.2.7
-m0wer/tiddlywiki | v[X]       | [X]
-m0wer/tiddlywiki | test       | ?
+|     Image Name     |   Tag  | TiddyWiki Version | 
+|:------------------:|:------:|:-----------------:|
+| vstoppe/tiddlywiki | latest | 5.3.3             |
 
 ## Prerequisites
 
