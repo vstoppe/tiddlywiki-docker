@@ -85,7 +85,7 @@ Create `docker-compose.yml` with the following contents:
 version: '3'
 services:
   tiddlywiki:
-    image: m0wer/tiddlywiki
+    image: stoppe/tiddlywiki
     volumes:
       - ./tiddlywiki:/var/lib/tiddlywiki
     restart: unless-stopped
