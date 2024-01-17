@@ -19,7 +19,7 @@ The Docker image is available at [vstoppe/tiddlywiki](https://hub.docker.com/r/v
 ## Quickstart
 
 ```bash
-docker run -d -p 8080:8080 m0wer/tiddlywiki
+docker run -d -p 8080:8080 vstopppe/tiddlywiki
 ```
 
 Now TiddlyWiki should be running on
@@ -31,7 +31,7 @@ The container uses a Docker volume to save the wiki data. In order not
 to lose sight of that, I recommend using a local directory for the volume.
 
 ```bash
-docker run -d -p 8080:8080 -v $(pwd)/.tiddlywiki:/var/lib/tiddlywiki m0wer/tiddlywiki
+docker run -d -p 8080:8080 -v $(pwd)/.tiddlywiki:/var/lib/tiddlywiki vstoppe/tiddlywiki
 ```
 
 In this example, the folder `$(pwd)/.tiddlywiki` is used for the data.
